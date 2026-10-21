@@ -3,33 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VinFast EV Store - Cải Tiến Giao Diện Thẻ Xe & Cấu Hình</title>
+    <title>VinFast Auto - Showroom Ô Tô Điện Trực Tuyến & Cấu Hình Xe</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <!-- Header phong cách xe điện công nghệ cao -->
+    <!-- Header phong cách VinFast hiện đại -->
     <header class="ev-header">
         <div class="container header-wrap">
             <div class="brand">
-                <span class="brand-logo">VINFAST</span>
-                <span class="brand-tag">FUTURE OF MOBILITY</span>
+                <div class="brand-v-logo">V</div>
+                <div class="brand-text">
+                    <span class="brand-name">VINFAST</span>
+                    <span class="brand-sub">CÙNG BẠN BỨT PHÁ MỌI GIỚI HẠN</span>
+                </div>
             </div>
-            <div class="header-slogan">
-                <span>Hệ sinh thái Ô tô điện thông minh - Đặt cọc trực tuyến</span>
-            </div>
+            <nav class="nav-links">
+                <span class="nav-item active">Ô tô điện</span>
+                <span class="nav-item">Pin & Trạm sạc</span>
+                <span class="nav-item">Dự toán trả góp</span>
+                <a href="#showroom" class="nav-btn-highlight">Khám phá xe</a>
+            </nav>
         </div>
     </header>
 
-    <!-- Khối nội dung chính -->
-    <main class="container">
+    <!-- Hero Banner ấn tượng -->
+    <section class="hero-banner">
+        <div class="container hero-content">
+            <span class="hero-badge">⚡ KỶ NGUYÊN DI CHUYỂN THÔNG MINH</span>
+            <h1 class="hero-title">ĐẶT CỌC XE ĐIỆN VINFAST TRỰC TUYẾN</h1>
+            <p class="hero-desc">Trải nghiệm đặt cọc giữ xe minh bạch, kiểm tra tầm hoạt động của pin và lựa chọn phối màu trực tiếp chỉ với vài thao tác.</p>
+            <div class="hero-trust-bar">
+                <div class="trust-item">🛡️ Bảo hành chính hãng 10 năm</div>
+                <div class="trust-item">⚡ 150.000+ Cổng sạc phủ 63 tỉnh thành</div>
+                <div class="trust-item">🔄 Cam kết hỗ trợ hoàn / đổi cọc</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Khối Showroom sản phẩm chính -->
+    <main class="container" id="showroom">
         <section class="ev-showroom">
             <div class="section-top">
                 <div>
-                    <h1 class="heading-title">BẢNG CẤU HÌNH CÁC DÒNG XE ĐIỆN</h1>
-                    <p class="heading-sub">Tối ưu hóa thông số pin, khả năng chọn màu sơn và phương thức đặt cọc online</p>
+                    <h2 class="heading-title">CÁC DÒNG XE ĐIỆN TIÊU BIỂU</h2>
+                    <p class="heading-sub">So sánh nhanh tầm hoạt động, công suất và dự toán chi phí cọc ban đầu</p>
                 </div>
-                <div class="ev-status-pill">● Sẵn sàng bàn giao 2026</div>
+                <div class="ev-status-pill">
+                    <span class="status-dot"></span> Sẵn sàng giao xe 2026
+                </div>
             </div>
 
             <!-- Lưới xe điện (4 dòng xe tiêu biểu) -->
@@ -38,46 +63,54 @@
                 <!-- Xe 1: VF 3 -->
                 <article class="ev-card">
                     <div class="card-visual">
-                        <span class="badge-segment">MINI CAR</span>
-                        <img src="https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=700&auto=format&fit=crop&q=80" alt="VinFast VF 3" class="car-img">
-                        <!-- Bộ chọn màu sơn nhanh -->
+                        <span class="badge-segment badge-mini">MINI SUV • PHỐ THỊ</span>
+                        <img src="https://static-cms-prod.vinfastauto.com/statics/car/vf3/xe-dien-vinfast-vf3-anh-bia-chay-cao-toc-mobile.webp" alt="VinFast VF 3" class="car-img">
                         <div class="color-palette">
+                            <span class="color-label">Màu:</span>
                             <span class="color-dot dot-yellow active" title="Vàng Nóc Trắng"></span>
-                            <span class="color-dot dot-green" title="Xanh Rêu"></span>
-                            <span class="color-dot dot-red" title="Đỏ Đô"></span>
+                            <span class="color-dot dot-green" title="Xanh Rêu Độc Bản"></span>
+                            <span class="color-dot dot-red" title="Đỏ Đô Năng Động"></span>
                         </div>
                     </div>
                     <div class="card-body">
-                        <span class="car-category">Thành thị năng động</span>
-                        <h2 class="car-name">VinFast VF 3 - Phong Cách Sáng Tạo</h2>
+                        <span class="car-category">Phân khúc Mini SUV</span>
+                        <h3 class="car-name">VinFast VF 3 - Phong Cách Sáng Tạo</h3>
                         
-                        <!-- Cải tiến: Thông số pin & hiệu năng cực kỳ quan trọng với xe điện -->
+                        <!-- 3 thông số vàng của xe điện -->
                         <div class="ev-specs">
                             <div class="spec-item">
+                                <span class="spec-icon">🔋</span>
                                 <span class="spec-val">215 km</span>
                                 <span class="spec-label">Quãng đường/sạc</span>
                             </div>
                             <div class="spec-item">
-                                <span class="spec-val">43 mã lực</span>
-                                <span class="spec-label">Công suất</span>
+                                <span class="spec-icon">⚡</span>
+                                <span class="spec-val">43 HP</span>
+                                <span class="spec-label">Công suất tối đa</span>
                             </div>
                             <div class="spec-item">
+                                <span class="spec-icon">⏱️</span>
                                 <span class="spec-val">36 phút</span>
-                                <span class="spec-label">Sạc 10%-70%</span>
+                                <span class="spec-label">Sạc 10% - 70%</span>
                             </div>
                         </div>
 
-                        <!-- Chuyển đổi phương án Pin -->
+                        <!-- Minh bạch chi phí -->
                         <div class="pricing-container">
                             <div class="price-row">
-                                <span class="price-title">Giá kèm pin:</span>
+                                <span class="price-title">Giá mua kèm pin:</span>
                                 <span class="price-number">322.000.000 đ</span>
                             </div>
-                            <p class="rent-note">Hoặc thuê pin từ: 900.000 đ/tháng</p>
+                            <div class="rent-note">
+                                <span>Hoặc thuê pin từ: <strong>900.000 đ</strong>/tháng</span>
+                            </div>
                         </div>
 
                         <div class="card-action">
-                            <button class="btn-deposit" type="button">ĐẶT CỌC GIỮ CHỖ (15 TRIỆU)</button>
+                            <button class="btn-deposit" type="button">
+                                <span>ĐẶT CỌC GIỮ XE</span>
+                                <span class="btn-sub">Chỉ từ 15.000.000 đ</span>
+                            </button>
                         </div>
                     </div>
                 </article>
@@ -85,81 +118,105 @@
                 <!-- Xe 2: VF 6 -->
                 <article class="ev-card">
                     <div class="card-visual">
-                        <span class="badge-segment">B-SUV</span>
-                        <img src="https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?w=700&auto=format&fit=crop&q=80" alt="VinFast VF 6" class="car-img">
+                        <span class="badge-segment badge-bsuv">B-SUV • GIA ĐÌNH</span>
+                        <img src="https://static-cms-prod.vinfastauto.com/statics/car/vf6/hinh-anh-xe-vinfast-vf6-mau-trang-duong-deo-nui-mobile.webp" alt="VinFast VF 6" class="car-img">
                         <div class="color-palette">
+                            <span class="color-label">Màu:</span>
                             <span class="color-dot dot-white active" title="Trắng Ngọc Trai"></span>
                             <span class="color-dot dot-blue" title="Xanh VinFast"></span>
                             <span class="color-dot dot-silver" title="Bạc Titanium"></span>
                         </div>
                     </div>
                     <div class="card-body">
-                        <span class="car-category">Gia đình trẻ</span>
-                        <h2 class="car-name">VinFast VF 6 Plus - Hiện Đại & Tiện Nghi</h2>
+                        <span class="car-category">Phân khúc B-SUV Hiện Đại</span>
+                        <h3 class="car-name">VinFast VF 6 Plus - Tiện Nghi Gia Đình</h3>
+                        
                         <div class="ev-specs">
                             <div class="spec-item">
+                                <span class="spec-icon">🔋</span>
                                 <span class="spec-val">381 km</span>
                                 <span class="spec-label">Quãng đường/sạc</span>
                             </div>
                             <div class="spec-item">
-                                <span class="spec-val">201 mã lực</span>
-                                <span class="spec-label">Công suất</span>
+                                <span class="spec-icon">⚡</span>
+                                <span class="spec-val">201 HP</span>
+                                <span class="spec-label">Công suất tối đa</span>
                             </div>
                             <div class="spec-item">
+                                <span class="spec-icon">⏱️</span>
                                 <span class="spec-val">30 phút</span>
-                                <span class="spec-label">Sạc nhanh</span>
+                                <span class="spec-label">Sạc siêu nhanh</span>
                             </div>
                         </div>
+
                         <div class="pricing-container">
                             <div class="price-row">
-                                <span class="price-title">Giá kèm pin:</span>
+                                <span class="price-title">Giá mua kèm pin:</span>
                                 <span class="price-number">765.000.000 đ</span>
                             </div>
-                            <p class="rent-note">Trả góp chỉ từ: 6.800.000 đ/tháng</p>
+                            <div class="rent-note">
+                                <span>Trả góp ngân hàng từ: <strong>6.800.000 đ</strong>/tháng</span>
+                            </div>
                         </div>
+
                         <div class="card-action">
-                            <button class="btn-deposit" type="button">ĐẶT CỌC GIỮ CHỖ (30 TRIỆU)</button>
+                            <button class="btn-deposit" type="button">
+                                <span>ĐẶT CỌC GIỮ XE</span>
+                                <span class="btn-sub">Chỉ từ 30.000.000 đ</span>
+                            </button>
                         </div>
                     </div>
                 </article>
 
                 <!-- Xe 3: VF 7 -->
-                <article class="ev-card">
+                <article class="ev-card card-featured">
                     <div class="card-visual">
-                        <span class="badge-segment hot">C-SUV THỂ THAO</span>
-                        <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=700&auto=format&fit=crop&q=80" alt="VinFast VF 7" class="car-img">
+                        <span class="badge-segment badge-hot">🔥 C-SUV THỂ THAO</span>
+                        <img src="https://static-cms-prod.vinfastauto.com/statics/car/vf7/hinh-anh-vinfast-vf7-hero-banner-mobile.webp" alt="VinFast VF 7" class="car-img">
                         <div class="color-palette">
+                            <span class="color-label">Màu:</span>
                             <span class="color-dot dot-red active" title="Đỏ Crimson"></span>
                             <span class="color-dot dot-black" title="Đen Jet Black"></span>
                             <span class="color-dot dot-grey" title="Xám Xi Măng"></span>
                         </div>
                     </div>
                     <div class="card-body">
-                        <span class="car-category">Khí chất dẫn đầu</span>
-                        <h2 class="car-name">VinFast VF 7 Plus - Vũ Trụ Phi Đối Xứng</h2>
+                        <span class="car-category">Phân khúc C-SUV Dẫn Đầu</span>
+                        <h3 class="car-name">VinFast VF 7 Plus - Vũ Trụ Phi Đối Xứng</h3>
+                        
                         <div class="ev-specs">
                             <div class="spec-item">
+                                <span class="spec-icon">🔋</span>
                                 <span class="spec-val">431 km</span>
                                 <span class="spec-label">Quãng đường/sạc</span>
                             </div>
                             <div class="spec-item">
-                                <span class="spec-val">349 mã lực</span>
-                                <span class="spec-label">AWD 2 Cầu</span>
+                                <span class="spec-icon">⚡</span>
+                                <span class="spec-val">349 HP</span>
+                                <span class="spec-label">Dẫn động AWD</span>
                             </div>
                             <div class="spec-item">
+                                <span class="spec-icon">⏱️</span>
                                 <span class="spec-val">24 phút</span>
-                                <span class="spec-label">Sạc siêu nhanh</span>
+                                <span class="spec-label">Sạc 10% - 70%</span>
                             </div>
                         </div>
+
                         <div class="pricing-container">
                             <div class="price-row">
-                                <span class="price-title">Giá kèm pin:</span>
+                                <span class="price-title">Giá mua kèm pin:</span>
                                 <span class="price-number">999.000.000 đ</span>
                             </div>
-                            <p class="rent-note">Trả góp chỉ từ: 9.500.000 đ/tháng</p>
+                            <div class="rent-note">
+                                <span>Trả góp ngân hàng từ: <strong>9.500.000 đ</strong>/tháng</span>
+                            </div>
                         </div>
+
                         <div class="card-action">
-                            <button class="btn-deposit" type="button">ĐẶT CỌC GIỮ CHỖ (50 TRIỆU)</button>
+                            <button class="btn-deposit btn-featured" type="button">
+                                <span>ĐẶT CỌC GIỮ XE</span>
+                                <span class="btn-sub">Chỉ từ 50.000.000 đ</span>
+                            </button>
                         </div>
                     </div>
                 </article>
@@ -167,40 +224,52 @@
                 <!-- Xe 4: VF 9 -->
                 <article class="ev-card">
                     <div class="card-visual">
-                        <span class="badge-segment luxury">E-SUV FULL-SIZE</span>
-                        <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=700&auto=format&fit=crop&q=80" alt="VinFast VF 9" class="car-img">
+                        <span class="badge-segment badge-flagship">👑 E-SUV CHỦ TỊCH</span>
+                        <img src="https://static-cms-prod.vinfastauto.com/statics/car/vf9/hinh-anh-vinfast-vf9-hero-banner-mobile-20260915.webp" alt="VinFast VF 9" class="car-img">
                         <div class="color-palette">
+                            <span class="color-label">Màu:</span>
                             <span class="color-dot dot-blue active" title="Xanh Deep Ocean"></span>
                             <span class="color-dot dot-black" title="Đen Sang Trọng"></span>
                             <span class="color-dot dot-white" title="Trắng Tinh Tế"></span>
                         </div>
                     </div>
                     <div class="card-body">
-                        <span class="car-category">Đẳng cấp thương gia</span>
-                        <h2 class="car-name">VinFast VF 9 Plus - Chủ Tịch Ghế Cơ Trưởng</h2>
+                        <span class="car-category">Phân khúc E-SUV Hạng Sang</span>
+                        <h3 class="car-name">VinFast VF 9 Plus - Ghế Cơ Trưởng Thương Gia</h3>
+                        
                         <div class="ev-specs">
                             <div class="spec-item">
+                                <span class="spec-icon">🔋</span>
                                 <span class="spec-val">602 km</span>
                                 <span class="spec-label">Quãng đường/sạc</span>
                             </div>
                             <div class="spec-item">
-                                <span class="spec-val">402 mã lực</span>
-                                <span class="spec-label">Ghế Massage</span>
+                                <span class="spec-icon">⚡</span>
+                                <span class="spec-val">402 HP</span>
+                                <span class="spec-label">Ghế Massage VIP</span>
                             </div>
                             <div class="spec-item">
+                                <span class="spec-icon">⏱️</span>
                                 <span class="spec-val">26 phút</span>
                                 <span class="spec-label">Sạc siêu nhanh</span>
                             </div>
                         </div>
+
                         <div class="pricing-container">
                             <div class="price-row">
-                                <span class="price-title">Giá kèm pin:</span>
+                                <span class="price-title">Giá mua kèm pin:</span>
                                 <span class="price-number">1.999.000.000 đ</span>
                             </div>
-                            <p class="rent-note">Chính sách bảo hành 10 năm</p>
+                            <div class="rent-note">
+                                <span>Chính sách bảo hành vàng <strong>10 năm</strong></span>
+                            </div>
                         </div>
+
                         <div class="card-action">
-                            <button class="btn-deposit" type="button">ĐẶT CỌC GIỮ CHỖ (50 TRIỆU)</button>
+                            <button class="btn-deposit" type="button">
+                                <span>ĐẶT CỌC GIỮ XE</span>
+                                <span class="btn-sub">Chỉ từ 50.000.000 đ</span>
+                            </button>
                         </div>
                     </div>
                 </article>
@@ -209,11 +278,18 @@
         </section>
     </main>
 
-    <!-- Footer pháp lý & cam kết -->
+    <!-- Footer chứng nhận và pháp lý -->
     <footer class="ev-footer">
-        <div class="container footer-grid">
-            <p>Bài tập Chương 1: Nghiên cứu mô hình TMĐT Ô tô điện & Quy trình AI - UEH</p>
-            <p class="secure-tag">🔒 Cam kết bảo mật cọc trực tuyến qua VNPAY / Visa / Mastercard</p>
+        <div class="container footer-content">
+            <div class="footer-info">
+                <span class="footer-logo">VINFAST VIETNAM</span>
+                <p>Bài tập Chương 1: Nghiên cứu mô hình TMĐT Ô tô điện & Quy trình phối hợp AI - UEH</p>
+                <p class="footer-sub">Sinh viên: Thực hiện cải tiến giao diện Thẻ xe & Trải nghiệm đặt cọc trực tuyến</p>
+            </div>
+            <div class="footer-guarantee">
+                <div class="g-item">🔒 Thanh toán bảo mật qua VNPAY / OnePay / Visa / Mastercard</div>
+                <div class="g-item">📜 Hợp đồng điện tử ký số hợp pháp được bảo chứng bởi VinFast</div>
+            </div>
         </div>
     </footer>
 
